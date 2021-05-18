@@ -138,7 +138,7 @@ jobs:
 
          repo_token: "${{ secrets.GITHUB_TOKEN }}"
 
-         automatic_release_tag: "OrangeFox R10"
+         automatic_release_tag: "OrangeFox_intex-R10.1"
 
          prerelease: false
 
