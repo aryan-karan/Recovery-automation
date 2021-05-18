@@ -36,7 +36,7 @@ on:
 
         required: true
 
-        default: 'https://github.com/aryankaran/TWRP-OFRP-tree-intex-Cloud-Q11.git -b twrp-6.0'
+        default: 'https://github.com/aryankaran/TWRP-OFRP-tree-intex-Cloud-Q11.git -b twrp-other_versions'
 
       kernel_link:
 
@@ -138,11 +138,11 @@ jobs:
 
          repo_token: "${{ secrets.GITHUB_TOKEN }}"
 
-         automatic_release_tag: "twrp-7.1_By_twrp-6.0_Tree"
+         automatic_release_tag: "twrp-7.1_general_tree"
 
          prerelease: false
 
-         title: "Recovery Automation By Area69Lab"
+         title: "It's The twrp-7.1 recovery build using tree for all other versions"
 
          files: |
 
