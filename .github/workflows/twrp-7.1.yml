@@ -138,7 +138,7 @@ jobs:
 
          repo_token: "${{ secrets.GITHUB_TOKEN }}"
 
-         automatic_release_tag: "twrp-7.1 By twrp-6.0 Tree"
+         automatic_release_tag: "twrp-7.1_By_twrp-6.0_Tree"
 
          prerelease: false
 
@@ -146,6 +146,6 @@ jobs:
 
          files: |
 
-            /home/runner/work/Recovery-automation/Recovery-automation/work/out/target/product/*/*.zip
+#            /home/runner/work/Recovery-automation/Recovery-automation/work/out/target/product/*/*.zip
 
             /home/runner/work/Recovery-automation/Recovery-automation/work/out/target/product/*/*.img
