@@ -1,4 +1,4 @@
-name: 'Recovery Builder TWRP'
+name: 'Recovery Builder TWRP android-8.1'
 
 on:
 
@@ -12,7 +12,7 @@ on:
 
         required: true
 
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-6.0'
+        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-8.1'
 
       vendor:
 
@@ -138,7 +138,7 @@ jobs:
 
          repo_token: "${{ secrets.GITHUB_TOKEN }}"
 
-         automatic_release_tag: "twrp-6.0"
+         automatic_release_tag: "twrp-8.1"
 
          prerelease: false
 
