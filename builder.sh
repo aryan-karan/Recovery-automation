@@ -64,7 +64,7 @@ echo "::endgroup::"
 echo "::group::Pre-Compilation"
 printf "Compiling Recovery...\n"
 
-export ALLOW_MISSING_DEPENDENCIES=true
+#export ALLOW_MISSING_DEPENDENCIES=true
 
 # If lunch throws error for roomservice, saying `device tree not found` or `fetching device already present`,
 # replace the `roomservice.py` with appropriate one from here
