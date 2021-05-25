@@ -36,7 +36,7 @@ on:
 
         required: true
 
-        default: 'https://github.com/aryankaran/TWRP-OFRP-tree-intex-Cloud-Q11.git -b fox_9.0_R11.1'
+        default: 'https://gitlab.com/aryankaran/TWRP-OFRP-tree-intex-Cloud-Q11.git -b fox_9.0_R11.1'
 
       kernel_link:
 
