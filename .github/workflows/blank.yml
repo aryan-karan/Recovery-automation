@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world! && git clone https://github.com/aryankaran/OFRP_dt_onclite.git -b fox_9.0 && git --version
+        run: echo Hello, world! && git clone https://github.com/aryankaran/OFRP_dt_onclite.git -b fox_9.0 -v && git --version
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
