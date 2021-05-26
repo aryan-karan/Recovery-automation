@@ -1,4 +1,4 @@
-name: 'Recovery Builder OFRP R11.1'
+name: 'Recovery Builder universal onclite'
 
 on:
 
@@ -12,7 +12,7 @@ on:
 
         required: true
 
-        default: 'https://gitlab.com/OrangeFox/Manifest.git -b fox_9.0'
+        default: '  https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0'
 
       vendor:
 
@@ -20,7 +20,7 @@ on:
 
         required: true
 
-        default: 'intex'
+        default: 'xiaomi'
 
       codename:
 
@@ -28,7 +28,7 @@ on:
 
         required: true
 
-        default: 'Cloud_Q11'
+        default: 'onclite'
 
       dt_link:
 
@@ -36,7 +36,7 @@ on:
 
         required: true
 
-        default: 'https://gitlab.com/aryankaran/TWRP-OFRP-tree-intex-Cloud-Q11.git -b fox_9.0_R11.1'
+        default: 'https://github.com/aryankaran/TWRP_dt_onclite.git -b twrp-9.0'
 
       kernel_link:
 
@@ -50,7 +50,7 @@ on:
 
         required: true
 
-        default: 'OrangeFox_intex-R11.1'
+        default: 'TWRP-onclite-Test'
 
       cryptfs_fix:
 
