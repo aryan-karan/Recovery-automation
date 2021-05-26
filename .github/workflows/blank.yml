@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: CI-Repo-Test
 
 # Controls when the action will run. 
 on:
@@ -34,4 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          repo
+          curl https://storage.googleapis.com/git-repo-downloads/repo > repo && chmod a+x repo && sudo install repo /usr/local/bin && rm repo
+          repo 
