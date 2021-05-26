@@ -35,4 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           curl https://storage.googleapis.com/git-repo-downloads/repo > repo && chmod a+x repo && sudo install repo /usr/local/bin && rm repo
-          repo 
+          mkdir havoc && cd havoc
+          df -h
+          repo init -u https://github.com/Havoc-OS/android_manifest.git -b eleven
+          df -h
+          repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
