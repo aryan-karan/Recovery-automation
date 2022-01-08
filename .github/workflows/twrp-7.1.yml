@@ -20,7 +20,7 @@ on:
 
         required: true
 
-        default: 'intex'
+        default: 'lenovo'
 
       codename:
 
@@ -28,7 +28,7 @@ on:
 
         required: true
 
-        default: 'Cloud_Q11'
+        default: 'TB_8304F1'
 
       dt_link:
 
@@ -36,7 +36,7 @@ on:
 
         required: true
 
-        default: 'https://github.com/aryankaran/TWRP-OFRP-tree-intex-Cloud-Q11.git -b twrp-other_versions'
+        default: 'https://github.com/aryankaran/lenovo_TB-8304F1 -b twrp-7.1'
 
       kernel_link:
 
@@ -118,9 +118,9 @@ jobs:
 
         uses: actions/checkout@main
 
-      - name: Cleanup Space
+#      - name: Cleanup Space
 
-        uses: rokibhasansagar/slimhub_actions@main
+#        uses: rokibhasansagar/slimhub_actions@main
 
       - name: Initializing Build Environment
 
@@ -138,11 +138,11 @@ jobs:
 
          repo_token: "${{ secrets.GITHUB_TOKEN }}"
 
-         automatic_release_tag: "twrp-7.1_general_tree"
+         automatic_release_tag: "twrp-7.1"
 
          prerelease: false
 
-         title: "It's The twrp-7.1 recovery build using tree for all other versions... 🤗😅"
+         title: "Initial twrp for tab e8"
 
          files: |
 
